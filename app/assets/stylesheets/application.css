@@ -18,3 +18,17 @@
   padding: 0;
   list-style-type: none;
 }
+
+.form-div{
+  width: 50vw;
+  margin: auto;
+}
+
+.custom-form-label{
+  width: 5em;
+  margin: .25em;;
+}
+
+.custom-form-input{
+  border: none;
+}

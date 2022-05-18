@@ -4,7 +4,12 @@
 <input type="checkbox">
 <br>
 <%= link_to 'All Tasks', tasks_path %>
-
+<%= link_to 'Edit Task', edit_task_path %>
+<%= link_to(
+    'Delete it',
+    task_path(@task),
+    data: { turbo_method: :delete, turbo_confirm: "Are you sure?"}
+    ) %>
 <%# html data-controller="turbo-method" %>
 
 </div>
